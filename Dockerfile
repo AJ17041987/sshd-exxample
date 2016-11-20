@@ -18,7 +18,7 @@ CMD /usr/sbin/sshd -D
 
 USER nobody
 WORKDIR /tmp
-ENV foobar "Hello World"
+#ENV foobar "Hello World"
 
 #to make the container listen to connections on a particular port.
 
